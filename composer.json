@@ -1,0 +1,31 @@
+{
+    "name": "gwaps4nlp/news-manager",
+    "description": "Manage a Newsletter",
+    "keywords": ["laravel", "news", "newsletter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Lefebvre",
+            "email": "nicolas.jean.lefebvre@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gwaps4nlp\\NewsManager\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Gwaps4nlp\\NewsManager\\NewsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
