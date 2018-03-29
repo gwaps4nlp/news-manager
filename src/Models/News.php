@@ -27,7 +27,7 @@ class News extends Model
 	 */
 	public function language()
 	{
-	  return $this->belongsTo('App\Models\Language');
+	  return $this->belongsTo('Gwaps4nlp\Models\Language');
 	}
 
     /**
@@ -37,7 +37,7 @@ class News extends Model
      */
     public function users()
     {
-        return $this->belongsToMany('App\Models\User')->withPivot('seen');
+        return $this->belongsToMany('Gwaps4nlp\Models\User')->withPivot('seen');
     }
 
     /**
