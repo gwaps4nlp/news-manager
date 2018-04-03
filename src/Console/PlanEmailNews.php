@@ -5,7 +5,7 @@ namespace Gwaps4nlp\NewsManager\Console;
 use Illuminate\Console\Command;
 use Gwaps4nlp\NewsManager\Models\News;
 use Gwaps4nlp\NewsManager\Models\ScheduledEmailNews;
-use Gwaps4nlp\Core\Models\User;
+use Gwaps4nlp\Models\User;
 use DB,App;
 
 class PlanEmailNews extends Command
@@ -63,7 +63,7 @@ class PlanEmailNews extends Command
                             ScheduledEmailNews::create(['scheduled_at'=>$news->scheduled_at,'user_id'=>$user->id,'news_id'=>$news->id]);
                     } catch (Exception $Ex){
 
-                    }        
+                    }
                 }
 
         }
