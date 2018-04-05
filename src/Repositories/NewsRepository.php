@@ -2,7 +2,7 @@
 
 namespace Gwaps4nlp\NewsManager\Repositories;
 
-use Gwaps4nlp\Repositories\BaseRepository;
+use Gwaps4nlp\Core\Repositories\BaseRepository;
 use Gwaps4nlp\NewsManager\Models\News;
 use Config;
 

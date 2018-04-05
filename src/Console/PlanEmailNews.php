@@ -5,7 +5,7 @@ namespace Gwaps4nlp\NewsManager\Console;
 use Illuminate\Console\Command;
 use Gwaps4nlp\NewsManager\Models\News;
 use Gwaps4nlp\NewsManager\Models\ScheduledEmailNews;
-use Gwaps4nlp\Models\User;
+use Gwaps4nlp\Core\Models\User;
 use DB,App;
 
 class PlanEmailNews extends Command

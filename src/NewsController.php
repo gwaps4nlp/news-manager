@@ -6,10 +6,10 @@ use Auth,App;
 use Illuminate\Http\Request;
 use Gwaps4nlp\NewsManager\Requests\NewsRequest;
 use Gwaps4nlp\NewsManager\Models\News;
-use Gwaps4nlp\Models\User;
+use Gwaps4nlp\Core\Models\User;
 use Gwaps4nlp\NewsManager\Requests\NewsCreateRequest;
-use App\Http\Controllers\Controller;
-use Gwaps4nlp\Repositories\LanguageRepository;
+use Gwaps4nlp\Core\Controller;
+use Gwaps4nlp\Core\Repositories\LanguageRepository;
 use Gwaps4nlp\NewsManager\Repositories\NewsRepository;
 
 
